@@ -1,0 +1,154 @@
+
+/* Front Page */
+.logo-image {
+    width: 200px;
+}
+
+.line {
+    width: 100%;
+    border-top: 5px #44ccb9; 
+}
+
+.cover-image {
+    max-width: 100%;
+}
+
+.project-images {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 10px 16px 0px rgba(0,0,0,0.20);
+    margin-bottom: 50px
+}
+
+.project-image-container {
+    margin-top: 50px;
+    cursor: pointer
+}
+
+/* About Me */
+.me-image {
+    max-width: 70%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/* Text edits */
+h1 {
+   
+    font-family: futura-pt,sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    color: #2f3d4a;
+}
+h2 {
+    font-family: futura-pt,sans-serif;
+    text-align: right;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    color: #2f3d4a;
+
+}
+
+h3 {
+    font-family: futura-pt,sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 1.6em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    color: #2f3d4a;
+    margin-top: 40px;
+}
+
+p {
+    font-family: futura-pt,sans-serif;
+    text-align: left;
+    font-style: normal;
+    font-weight: 200;    
+    color: #2f3d4a;
+    margin-bottom: 30px
+}
+
+/* github button */
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.btn {
+    background-color: #44ccb9;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* github darker background on mouse-over */
+.btn:hover {
+    background-color:#39b2e8;
+ }
+
+
+/* project overlays on mouse-over */
+.container2 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: #2f3d4a;
+    font-family: futura-pt,sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .06em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
