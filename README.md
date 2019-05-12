@@ -1,2 +1,3 @@
 # Build-a-Portfolio-Site
-Udacity Front End Web Developer Nanodegree Project
+This portfolio website is created specifically for Udacity's Front End Web Developer Nanodegree
+<h1>What I've learned from this project</h1>
